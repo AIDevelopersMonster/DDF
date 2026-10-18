@@ -1,0 +1,3 @@
+VCD info: dumpfile results/positive.vcd opened for output.
+SIM_PASS: moving_average4 checks=146 inputs=120 outputs=120
+tb/tb_moving_average4.v:135: $finish called at 1466000 (1ps)

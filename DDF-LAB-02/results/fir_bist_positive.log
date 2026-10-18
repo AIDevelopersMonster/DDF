@@ -1,0 +1,2 @@
+BIST_SIM_PASS: 20 directed vectors, 3 LED hardware wrapper
+hardware/tangnano9k/tb/tb_top_fir_bist.v:26: $finish called at 360000 (1ps)

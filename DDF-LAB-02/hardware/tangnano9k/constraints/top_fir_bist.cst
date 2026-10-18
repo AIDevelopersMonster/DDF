@@ -1,0 +1,6 @@
+// Sipeed Tang Nano 9K; three LEDs active LOW; button active LOW.
+IO_LOC "clk_27m" 52;
+IO_LOC "rst_n" 3;
+IO_LOC "led_n[0]" 10;
+IO_LOC "led_n[1]" 11;
+IO_LOC "led_n[2]" 13;

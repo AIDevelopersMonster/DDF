@@ -1,0 +1,2 @@
+BIST_MUTATION_DETECTED: known wrong FIR rejected in simulated FPGA wrapper
+hardware/tangnano9k/tb/tb_top_fir_bist.v:26: $finish called at 360000 (1ps)

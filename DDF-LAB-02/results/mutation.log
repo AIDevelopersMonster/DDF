@@ -1,0 +1,3 @@
+VCD info: dumpfile results/mutation.vcd opened for output.
+FATAL: tb/tb_moving_average4.v:75: SIM_FAIL data: check=2 got=0 want=1 valid=1
+       Time: 36000  Scope: tb_moving_average4.step

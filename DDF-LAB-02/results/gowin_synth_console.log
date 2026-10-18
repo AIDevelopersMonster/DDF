@@ -1,0 +1,29 @@
+*** GOWIN Tcl Command Line Console  *** 
+current device: GW1NR-9C  GW1NR-LV9QN88PC6/I5
+add new file: "C:/GitHub/DDF/DDF-LAB-02/rtl/moving_average4.v"
+DDF_GOWIN_SYN_START
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\GitHub\DDF\DDF-LAB-02\rtl\moving_average4.v'
+Compiling module 'moving_average4'("C:\GitHub\DDF\DDF-LAB-02\rtl\moving_average4.v":8)
+NOTE  (EX0101) : Current top module is "moving_average4"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\GitHub\DDF\DDF-LAB-02\build\gowin_syn\impl\gwsynthesis\ddf_lab02.vg" completed
+[100%] Generate report file "C:\GitHub\DDF\DDF-LAB-02\build\gowin_syn\impl\gwsynthesis\ddf_lab02_syn.rpt.html" completed
+GowinSynthesis finish
+DDF_GOWIN_SYN_COMMAND_COMPLETED

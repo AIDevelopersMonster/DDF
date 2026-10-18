@@ -1,0 +1,3 @@
+IO_LOC "clk_27m" 52;
+IO_LOC "rst_n" 3;
+IO_LOC "led_n" 10;
