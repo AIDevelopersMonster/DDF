@@ -1,0 +1,2 @@
+FATAL: hardware/tangnano9k/tb/tb_top_fir_uart.v:123: UART_TB_MISMATCH tx=1 op=01 val=    4 got=   0 wanted=          1
+       Time: 38825000  Scope: tb_top_fir_uart.do_request

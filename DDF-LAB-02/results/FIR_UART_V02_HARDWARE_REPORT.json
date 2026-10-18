@@ -1,0 +1,19 @@
+{
+  "Experiment": "DDF-LAB-02 / Tang Nano 9K UART external comparison v0.2 registered reset",
+  "Status": "FIR_UART_V02_HARDWARE_PASS",
+  "StartUTC": "2026-10-18T07:26:44.1652825Z",
+  "EndUTC": "2026-10-18T07:26:45.5407051Z",
+  "ComPort": "COM10",
+  "Baudrate": 115200,
+  "Frame": "115200 8N1, request A5, response 5A, XOR/sequence",
+  "Seed": 20261018,
+  "RequestedRandomSamples": 256,
+  "VerifiedSamples": 270,
+  "Holds": 21,
+  "Resets": 3,
+  "VerifiedTransactions": 294,
+  "BitstreamSHA256": "F9B5232A3FCA23764910301E5CBE2857C7F3F7536D2012CB474640FD21E21197",
+  "OriginalFIRRTL_SHA256": "D81EA8E8BB023B9BBE61255442CB4CFC93DF6BD930B69F38821A1D67A0F9DBB1",
+  "Failure": null,
+  "TraceFile": "results/fir_uart_v02_hardware_trace.csv"
+}

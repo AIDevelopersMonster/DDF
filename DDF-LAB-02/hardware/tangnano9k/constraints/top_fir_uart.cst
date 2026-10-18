@@ -1,0 +1,11 @@
+// Sipeed Tang Nano 9K, onboard USB-UART through BL702/FTDI.
+// FPGA_TX to BL702_UART_RX; FPGA_RX from BL702_UART_TX.
+IO_LOC "clk_27m" 52;
+IO_LOC "rst_n" 3;
+IO_LOC "uart_tx" 17;
+IO_LOC "uart_rx" 18;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33;
+IO_LOC "led_n[0]" 10;
+IO_LOC "led_n[1]" 11;
+IO_LOC "led_n[2]" 13;

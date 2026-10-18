@@ -1,0 +1,19 @@
+{
+  "Experiment": "DDF-LAB-02 / Tang Nano 9K UART external comparison",
+  "Status": "FIR_UART_HARDWARE_FAIL",
+  "StartUTC": "2026-10-18T07:16:00.1173883Z",
+  "EndUTC": "2026-10-18T07:16:00.5925715Z",
+  "ComPort": "COM10",
+  "Baudrate": 115200,
+  "Frame": "115200 8N1, request A5, response 5A, XOR/sequence",
+  "Seed": 20261018,
+  "RequestedRandomSamples": 256,
+  "VerifiedSamples": 2,
+  "Holds": 0,
+  "Resets": 1,
+  "VerifiedTransactions": 3,
+  "BitstreamSHA256": "6AEC266A40B886360DFE91EF427B4924805F77B50537BB95B052DE55F73DC00C",
+  "OriginalFIRRTL_SHA256": "D81EA8E8BB023B9BBE61255442CB4CFC93DF6BD930B69F38821A1D67A0F9DBB1",
+  "Failure": "FIR_HARDWARE_MISMATCH seq=2 input=0 expected=1 FPGA=0",
+  "TraceFile": "results/fir_uart_hardware_trace.csv"
+}

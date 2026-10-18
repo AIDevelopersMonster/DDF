@@ -7,3 +7,4 @@ DDF-LAB-02/results/iverilog_version.txt whitespace=-blank-at-eof
 DDF-LAB-02/results/vvp_version.txt whitespace=-blank-at-eof
 DDF-LAB-02/results/source_hashes.txt whitespace=-blank-at-eof
 DDF-LAB-02/results/*_sram_program.log whitespace=-blank-at-eol
+DDF-LAB-02/results/*.log whitespace=-blank-at-eol,-blank-at-eof

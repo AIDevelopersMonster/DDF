@@ -1,0 +1,7 @@
+warning: Some design elements have no explicit time unit and/or
+       : time precision. This may cause confusing timing results.
+       : Affected design elements are:
+       :   -- module ddf_uart_rx declared here: hardware/tangnano9k/rtl/ddf_uart_rx.v:4
+       :   -- module ddf_uart_tx declared here: hardware/tangnano9k/rtl/ddf_uart_tx.v:3
+       :   -- module moving_average4 declared here: rtl_mutant/moving_average4.v:8
+       :   -- module top_fir_uart declared here: hardware/tangnano9k/rtl/top_fir_uart.v:12

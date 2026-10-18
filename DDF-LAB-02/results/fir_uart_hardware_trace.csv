@@ -1,0 +1,4 @@
+"Sequence","Phase","Opcode","Input","Expected","FPGA","Equal","RoundTripMs"
+"0","initial_reset","2","0","0","0","True","13,338"
+"1","directed","1","4","1","1","True","2,279"
+"2","directed","1","0","1","0","False","2,298"

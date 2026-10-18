@@ -1,0 +1,2 @@
+UART_V02_BRIDGE_SIM_PASS: transactions=114 samples=99 reset/hold/errors tested
+hardware/tangnano9k/tb/tb_top_fir_uart_v02.v:182: $finish called at 2196905000 (1ps)
