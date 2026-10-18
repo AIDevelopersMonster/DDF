@@ -1,0 +1,11 @@
+PASS rtl_has_reset
+PASS rtl_width
+PASS rtl_unsigned
+PASS rtl_output_slicing
+PASS rtl_uses_nonblocking
+PASS mutant_diff
+PASS checker_is_separate
+PASS tb_has_watchdog
+PASS tb_detects_unknowns
+PASS tb_has_mutation_diagnostics
+STATIC_SOURCE_ASSERTIONS_PASS (text inspection only; not HDL compile)

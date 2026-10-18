@@ -1,0 +1,22 @@
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Verilog simulation temporary files
+*.vvp
+*.vcd
+*.fst
+
+# Temporary build directories
+build/
+dist/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Editor temporary files
+*.swp
+*~

@@ -1,0 +1,42 @@
+@page { size: A4; margin: 18mm 18mm 19mm 18mm;
+ @top-left { content: 'DIGITAL DESIGN FLOW  /  MODULE 03'; font-family:'DejaVu Sans'; font-size:7.5pt; font-weight:bold; color:#55738b; letter-spacing:.05em; }
+ @top-right { content: 'DDF-LAB-02  |  v0.1'; font-family:'DejaVu Sans'; font-size:7.5pt; color:#55738b; }
+ @bottom-left { content:'DDF-LAB-02 · 2026 · Verilog / RTL'; font-family:'DejaVu Sans'; font-size:7.3pt; color:#6a7c8b; }
+ @bottom-right { content:'Page ' counter(page) ' / ' counter(pages); font-family:'DejaVu Sans'; font-size:7.3pt; color:#6a7c8b; }
+}
+@page :first { margin-top:20mm; @top-left {content: none;} @top-right {content: none;} }
+html { font-family:'DejaVu Sans',sans-serif; font-size:9.2pt; color:#142a3f; }
+body { font-family:'DejaVu Sans',sans-serif; font-size:9.2pt; line-height:1.48; }
+h1 { color:#0d3550; font-weight:800; line-height:1.2; font-size:22pt; margin:10mm 0 5mm 0; padding:0 0 4mm 0; border-bottom:3px solid #0891b2; }
+h2 { color:#0e5575; font-size:13.5pt; font-weight:bold; margin:8mm 0 3mm 0; padding:0 0 2mm 0; border-bottom:1px solid #bdd5e0; break-after:avoid; }
+h3 { color:#185d75; font-size:10.6pt; margin:5mm 0 2mm; break-after:avoid; }
+p { margin:0 0 3.1mm 0; orphans:3; widows:3; text-align:left; }
+strong { color:#0d3550; }
+blockquote { margin:5mm 2mm 6mm 2mm; background:#edf5f9; border-left:4px solid #0099bf; padding:4mm 5mm; color:#254f66; }
+blockquote p {margin:0;}
+.table-wrap{width:100%;}
+table { width:100%; border-collapse:collapse; margin:4.5mm 0 5mm; font-size:8.2pt; line-height:1.35; }
+thead { display:table-header-group; }
+thead tr { background:#0d4662; color:white; }
+th { text-align:left; font-weight:700; color:white; padding:2.4mm 2.9mm; vertical-align:middle; }
+td { padding:2.4mm 2.9mm; vertical-align:middle; border-bottom:1px solid #d9e4eb; overflow-wrap:anywhere; }
+tbody tr:nth-child(even) {background:#f3f7fa;}
+tr { break-inside:avoid; }
+code { font-family:'Liberation Mono','DejaVu Sans Mono',monospace; font-size:.90em; color:#045c84; }
+pre { background:#f1f5f8; color:#17374b; border-left:3px solid #0b8bae; padding:3mm 3.6mm; font-size:7.6pt; line-height:1.38; white-space:pre-wrap; overflow-wrap:anywhere; word-break:normal; margin:3mm 0 4mm; break-inside:avoid; }
+pre code { color:#193a4f; font-size:1em; }
+a {color:#00799e; text-decoration:none; overflow-wrap:anywhere;}
+img { max-width:100%; height:auto; display:block; margin:4.8mm auto 2.5mm; }
+figure {margin:3mm auto 5mm; break-inside:avoid; }
+figcaption {font-size:7.9pt; color:#667e8f; text-align:center; margin-top:2mm;}
+ul, ol { margin:2.7mm 0 4mm 0; padding-left:6mm; }
+li { margin:1.5mm 0; }
+hr {border:0; border-top:1px solid #c9dce5; margin:8mm 0 7mm;}
+.equation {font-family:'DejaVu Sans',sans-serif; text-align:center; color:#0a4565; font-size:10pt; font-weight:600; background:#f3f8fc; padding:4mm 2mm; margin:4mm 0; break-inside:avoid; }
+nav#TOC { background:#f2f7fa; border-radius:5px; padding:4mm 7mm; margin:4mm 0 8mm; }
+nav#TOC > ul {columns:2; column-gap:6mm; font-size:8.0pt; line-height:1.5; margin:2mm 0; }
+nav#TOC li {break-inside:avoid; margin:0.7mm 0;}
+nav#TOC ul {list-style:none; padding-left:0;}
+nav#TOC li ul {display:none;}
+nav#TOC a {color:#205d77;}
+img[alt*='архитектур'] {break-inside:avoid;}

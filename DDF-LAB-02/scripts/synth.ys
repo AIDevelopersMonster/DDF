@@ -1,0 +1,8 @@
+# Generic Yosys synthesis; not mapped to a target FPGA or ASIC PDK.
+read_verilog rtl/moving_average4.v
+hierarchy -check -top moving_average4
+proc
+opt
+check
+synth -top moving_average4
+stat

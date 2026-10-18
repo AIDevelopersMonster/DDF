@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300">
+    <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0891b2"/></marker></defs>
+    <rect width="960" height="300" rx="14" fill="#f3f8fc" />
+    <text x="30" y="37" font-size="21" font-family="DejaVu Sans" font-weight="bold" fill="#0b2440">From architecture to registers and logic</text>
+    <g font-family="DejaVu Sans" font-size="15" text-anchor="middle" fill="#0b2440">
+      <rect x="29" y="80" width="150" height="66" rx="10" fill="#dcf2fb" stroke="#0891b2" stroke-width="2"/><text x="104" y="106">Current sample</text><text x="104" y="128" font-weight="bold">data_in[11:0]</text>
+      <rect x="29" y="163" width="246" height="64" rx="10" fill="#f0f0ff" stroke="#7a75b7" stroke-width="2"/><text x="152" y="190">History (3 registers)</text><text x="152" y="213" font-weight="bold">d1, d2, d3 · 12b</text>
+      <rect x="329" y="113" width="171" height="68" rx="10" fill="#d4f3e8" stroke="#12845b" stroke-width="2"/><text x="414" y="143">14-bit sum</text><text x="414" y="164">Σ = x + d1+d2+d3</text>
+      <rect x="562" y="113" width="154" height="68" rx="10" fill="#fff1df" stroke="#d88c23" stroke-width="2"/><text x="639" y="143">Shift by 2</text><text x="639" y="164">sum[13:2]</text>
+      <rect x="782" y="113" width="156" height="68" rx="10" fill="#dcf2fb" stroke="#0891b2" stroke-width="2"/><text x="860" y="142">Output register</text><text x="860" y="165">data_out[11:0]</text>
+    </g>
+    <g fill="none" stroke="#0891b2" stroke-width="3" marker-end="url(#a)"><path d="M179 113 L305 113 L305 135 L329 135"/><path d="M275 195 L306 195 L306 159 L329 159"/><path d="M500 147 L562 147"/><path d="M716 147 L782 147"/></g>
+    <text x="29" y="255" font-family="DejaVu Sans" font-size="15" fill="#123f5d">Each valid_in=1 advances history; invalid samples are ignored.</text>
+    <text x="29" y="282" font-family="DejaVu Sans" font-size="13.5" fill="#476173">Reset clears history, data_out and valid_out. No ready/backpressure.</text>
+    </svg>

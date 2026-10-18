@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="245" viewBox="0 0 960 245">
+    <rect width="960" height="245" rx="14" fill="#f3f8fc"/>
+    <text x="28" y="38" font-size="20" font-weight="bold" font-family="DejaVu Sans" fill="#0b2440">Контракт регистрации результата: фронт + обновления NBA</text>
+    <path d="M55 100 H350 V72 H450 V100 H910" stroke="#12845b" stroke-width="4" fill="none"/>
+    <line x1="450" y1="62" x2="450" y2="202" stroke="#d88c23" stroke-width="3" stroke-dasharray="9 6"/>
+    <g font-size="15.5" font-family="DejaVu Sans" fill="#0b2440"><text x="40" y="78">clk</text><text x="125" y="135">До фронта</text><text x="395" y="59">Фронт такта</text><text x="645" y="135">После NBA</text>
+    <text x="115" y="167">valid_in = 1</text><text x="520" y="167">valid_out=1; data_out=ожидаемое</text>
+    <text x="29" y="225" font-size="14" fill="#476173">Это семантическая схема, не результат VCD и не оценка задержек FPGA.</text></g>
+    <path d="M520 171 L900 171" stroke="#0891b2" stroke-width="3"/>
+    </svg>

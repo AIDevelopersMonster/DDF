@@ -1,0 +1,5 @@
+# Markdown hard line breaks in published lab documents.
+# Keep original files unchanged for reproducibility.
+
+DDF-LAB-02/docs/DDF-LAB-02_v0.1_EN.md whitespace=-blank-at-eol
+DDF-LAB-02/docs/DDF-LAB-02_v0.1_RU.md whitespace=-blank-at-eol

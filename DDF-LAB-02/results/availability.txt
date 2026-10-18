@@ -1,0 +1,4 @@
+Preparation host: Debian GNU/Linux 13; HDL simulators iverilog/vvp, yosys and verilator unavailable.
+HDL_SIM: NOT RUN
+SYNTH: NOT RUN
+FPGA: NOT RUN
